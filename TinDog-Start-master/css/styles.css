@@ -1,0 +1,157 @@
+body{
+    font-family: "montserrat";
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+h1{ 
+    font-family: "Montserrat-black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* navigation bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "ubuntu";  
+  font-size:2.5rem;
+  font-weight: 8;
+}
+.nav-item{
+    padding:0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "montserrat-light";
+}
+
+.button-bo{
+  margin: 5% 3% 5% 0;
+}
+h2{
+font-size: xx-large;
+}
+h3{
+    font-size: large;
+}
+
+
+p{
+    color: #8f8f8f;
+}
+
+.title-image-0{
+    width:60%;
+    transform: rotate(25deg);
+    margin-left: 25%;
+}
+/* Fratures */
+
+#features{
+        padding: 7% 15%;
+        background-color: #fff;
+    }
+    .feature-box{
+        padding: 5%;
+        text-align: center;
+        font-weight: bold;
+    }
+    .icon{
+        color:#ef8172 ;
+        margin-bottom: 1rem;
+    }
+    .icon:hover{
+        color: #ff4c68;
+    }
+
+/* testimonials */
+
+#testimonials{
+    padding-top: 1rem;
+    text-align: center;
+    background-color: #ef8172 ;
+    color: #fff;
+
+}
+.carousel-item{
+    padding: 5% 15%;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    padding: 1rem;
+}
+
+/* Press */
+
+#press{
+    background-color: #ef8172 ;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+
+.press-logo{
+    width: 15%;
+   margin: 20px 20px 50px;
+}
+
+
+/* pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.prising-col {
+    padding: 3% 2%;
+}
+
+@media(max-width:1028px)
+{
+    #title{
+        text-align: center;
+    }
+    .title-image-0{
+        transform: rotate(0);
+        
+    }
+
+}
+
+/* Footer */
+
+#cta{
+padding: 4% 8%;
+text-align: center;
+background-color: #ff4c68;
+}
+
+#footer{
+text-align: center;
+color: #fff;
+margin: 5%;
+}
+.hihuko{
+    color: black ;
+    margin: auto 5px;
+}
+.cta-huha{
+        font-size: 3rem;
+        font-family:"montserrat-black";
+        color: #fff;
+}
+
+p{
+    color: #8f8f8f;
+    margin-top: 1rem;
+}
